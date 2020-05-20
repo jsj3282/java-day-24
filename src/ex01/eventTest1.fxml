@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="382.0" prefWidth="519.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="ex01.Controller1">
+   <children>
+      <ListView fx:id="fxListView" layoutX="51.0" layoutY="77.0" prefHeight="200.0" prefWidth="200.0" />
+      <ImageView fx:id="fxImageView" fitHeight="200.0" fitWidth="200.0" layoutX="274.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="120.0" layoutY="37.0" text="ListView" />
+      <Label layoutX="343.0" layoutY="37.0" text="ImageView" />
+      <Button layoutX="131.0" layoutY="309.0" mnemonicParsing="false" onAction="#OkBtn" text="확인" />
+      <Button layoutX="347.0" layoutY="309.0" mnemonicParsing="false" onAction="#CancelBtn" text="취소" />
+   </children>
+</AnchorPane>
